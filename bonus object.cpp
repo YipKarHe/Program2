@@ -383,6 +383,7 @@ private:
             gunAmount--;
             string attack;
             cout << "\nWho do you want to use it on?(X,Y,Z)";
+            cin >> attack;
             if (attack == "X" || attack == "x"){
                 xwing.usegun();
             }
