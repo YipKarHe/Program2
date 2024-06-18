@@ -597,10 +597,7 @@ void Game::assignRacerSymbol(char track[][45], char symbol, int position, int he
         break;
     case 43:
         track[height - 2][width - 24] = symbol;
-       case 43:
-            track[height - 2][width - 24] = symbol;
-            break;
-        case 44:
+    case 44:
             track[height - 2][width - 28] = symbol;
             break;
         case 45:
