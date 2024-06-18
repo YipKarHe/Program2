@@ -394,7 +394,6 @@ private:
             }
             else{
                 cout << "\ninvalid option";
-                continue;
             }
         
         } else if (item == "swap" && swapAmount > 0) {
